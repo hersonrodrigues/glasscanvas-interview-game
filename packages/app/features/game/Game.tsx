@@ -7,7 +7,7 @@ import Timer from './timer';
 import GameOver from './GameOver';
 
 const Game = () => {
-  const directions = ['https://i.ibb.co/8BxfQRx/r-down.png', 'https://i.ibb.co/y4krmQx/r-left.png', 'https://i.ibb.co/cCv2sHt/r-top.png', 'https://i.ibb.co/gyBXKww/r-right.png'];
+  const directions = ['https://ibb.co/P55Qr0x', 'https://ibb.co/FDs08qG', 'https://ibb.co/6YVJshM', 'https://ibb.co/BsySgBn'];
   const [gridSize, setGridSize] = useState(5);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(60);

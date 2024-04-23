@@ -38,7 +38,10 @@ const GameOver = ({ score, handleReset }) => {
         await AsyncStorage.setItem('game-score', JSON.stringify(gameScore));
         await AsyncStorage.setItem('last-name-score', name);
 
-        setScoreData(gameScore)
+        // Sort by score in descending order
+        gameScore.sort((a, b) => b.score - a.score);
+
+        setScoreData(gameScore.reverse())
         
       } catch (e) {
         Alert.alert("Error saving the score: "+ String(e));
@@ -58,8 +61,12 @@ const GameOver = ({ score, handleReset }) => {
         <ScrollView mt={15} p={10} maxHeight={200}>
           {scoreData.map((item, index) => (
             <XStack key={index} justifyContent="space-between" alignItems="center">
-              <Text>{item.name}</Text>
-              <Text ml={5}>({item.score})</Text>
+              {item && item.name != null &&
+              <>
+                <Text>{item.name}</Text>
+                <Text ml={5}>({item.score})</Text>
+              </>
+              }
             </XStack>
           ))}
         </ScrollView>
