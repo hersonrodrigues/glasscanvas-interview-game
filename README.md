@@ -8,4 +8,4 @@
 #### cd glasscanvas-interview-game
 #### yarn install
 #### cd apps/next
-#### npm next
+#### yarn next
