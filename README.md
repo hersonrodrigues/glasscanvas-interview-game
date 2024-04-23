@@ -9,3 +9,4 @@
 #### yarn install
 #### cd apps/next
 #### yarn next
+#### open the link http://localhost:3000
