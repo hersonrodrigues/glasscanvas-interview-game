@@ -1,6 +1,6 @@
 # Glass Canvas
 #### Thank you Glass Canvas for the oportunity to participate of your interview pricess
-#### This project was made using expo and next in a monorepo
+#### This project was made using expo and next in a monorepo here a quick demo https://www.loom.com/share/8709bf39d6cd4c83b11ae94a46862ef9
 #### That means we can run it on iOS and Android as well as on the web using same code, cool right?
 
 ## How to run the project locally?
