@@ -6,7 +6,6 @@
 ## How to run the project locally?
 #### git clone https://github.com/hersonrodrigues/glasscanvas-interview-game.git
 #### cd glasscanvas-interview-game
-#### npm i tamagui @tamagui/config
 #### yarn install
 #### cd apps/next
 #### npm next
