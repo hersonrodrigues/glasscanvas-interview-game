@@ -10,3 +10,11 @@
 #### cd apps/next
 #### yarn next
 #### open the link http://localhost:3000
+
+## How to run on iOS or Android?
+#### git clone https://github.com/hersonrodrigues/glasscanvas-interview-game.git
+#### cd glasscanvas-interview-game
+#### yarn install
+#### cd apps/expo
+#### yarn expo
+#### then you can follow the instructions on the terminal for each platform
